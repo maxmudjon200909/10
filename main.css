@@ -1,0 +1,109 @@
+    .body {
+      margin: 0;
+      background-color: #0f0f1a;
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #0f0f1a;
+    }
+
+    .title {
+      font-size: 24px;
+    }
+
+    .лл {
+      position: relative;
+      display: inline-block;
+    }
+
+    .лл button {
+      background-color: transparent;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .content {
+      display: none;
+      position: absolute;
+      background-color: #1e1e2f;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    }
+
+    .content a {
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .-content a:hover {
+      background-color: #4b4b6b;
+    }
+
+    .лл:hover .dropdown-content {
+      display: block;
+    }
+
+    .auth {
+      display: flex;
+      gap: 20px;
+    }
+
+    .auth a, .auth button {
+      color: white;
+      background: #c1b3ff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .chark {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #1e1e2f;
+      border-radius: 20px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .card img {
+      height: 200px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background-color: #0f0f1a;
+      font-size: 14px;
+    }
+
+    .links a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    select{
+      background-color: #413232;
+    }
+    option{
+      background-color: beige;
+    }
